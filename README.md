@@ -7,5 +7,5 @@ Knowledge for Handheld Anbernic Device RG552
 3. JELOS: https://github.com/JustEnoughLinuxOS/distribution/releases/latest  
 
 ## Download and install BIOS for emulators in Batocera v37  
-http://theminicaketv.free.fr/bios.html
+http://theminicaketv.free.fr/bios.html  
 PGM https://www.planetemu.net/rom/fb-alpha/pgm-2 put pgm.zip to /userdata/roms/fbneo  
