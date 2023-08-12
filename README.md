@@ -8,6 +8,11 @@ https://retrogamecorps.com/2022/07/13/amberelec-setup-and-update-guide/
 ## Stock (LINUX and Android) firmware:  
 https://rs97.bitgala.xyz/RG552/  
 
+Preconfiguration script in LINUX  
+Open ssh IP ADDRESS (192.168.1.X) and execute this command:
+`wget https://raw.githubusercontent.com/konsumschaf/settings.sh/main/settings.sh -O - | /bin/bash`
+
+
 ## Install LINUX custom firmware:   
 1. Batocera.linux: https://batocera.org/download  
 2. AmberElec https://amberelec.org/download  
