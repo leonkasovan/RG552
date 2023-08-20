@@ -21,3 +21,13 @@ Open ssh IP ADDRESS (192.168.1.X) and execute this command:
 ## Download and install BIOS for emulators in Batocera v37  
 http://theminicaketv.free.fr/bios.html  
 PGM https://www.planetemu.net/rom/fb-alpha/pgm-2 put pgm.zip to /userdata/roms/fbneo  
+
+## Enable local terminal in device  
+Edit /etc/inittab
+```
+S0::respawn:/sbin/getty -n -L -l /usr/bin/batocera-autologin console 115200 vt100 # GENERIC_SERIAL
+2:3:respawn:/sbin/getty 38400 tty2 -a root
+3:3:respawn:/sbin/getty 38400 tty3 -n -l /usr/bin/mc
+4:3:respawn:/sbin/getty 38400 tty4 -n -l /usr/bin/batocera-mixer
+# 5:3:respawn:/sbin/getty 38400 tty5 -n -l /bin/bash #it's working but press 3 button simulanously
+```
