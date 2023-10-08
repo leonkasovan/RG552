@@ -16,7 +16,7 @@ Open ssh IP ADDRESS (192.168.1.X) and execute this command:
 ## Install LINUX custom firmware:   
 1. Batocera.linux: https://batocera.org/download  
 2. AmberElec https://amberelec.org/download  
-3. JELOS: https://github.com/JustEnoughLinuxOS/distribution/releases/latest(must use 64Gb SDCard!)  
+3. JELOS (must use 64Gb SDCard!) https://github.com/JustEnoughLinuxOS/distribution/releases/latest  
 Flash it with Rufus 
 
 ## Download and install BIOS for emulators in Batocera v37  
