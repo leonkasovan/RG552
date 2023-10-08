@@ -16,8 +16,8 @@ Open ssh IP ADDRESS (192.168.1.X) and execute this command:
 ## Install LINUX custom firmware:   
 1. Batocera.linux: https://batocera.org/download  
 2. AmberElec https://amberelec.org/download  
-3. JELOS: https://github.com/JustEnoughLinuxOS/distribution/releases/latest
-Flash it with Raspberry Pi Imager (don't use Balena Etcher!!)  
+3. JELOS: https://github.com/JustEnoughLinuxOS/distribution/releases/latest(must use 64Gb SDCard!)  
+Flash it with Rufus 
 
 ## Download and install BIOS for emulators in Batocera v37  
 http://theminicaketv.free.fr/bios.html  
